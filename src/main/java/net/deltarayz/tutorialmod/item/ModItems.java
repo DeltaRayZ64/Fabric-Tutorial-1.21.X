@@ -15,6 +15,9 @@ public class ModItems {
 
     //My Items
     public static final Item BLUE_SPHERE = registerItem("blue_sphere", new Item(new Item.Settings()));
+    public static final Item GREEN_SPHERE = registerItem("green_sphere", new Item(new Item.Settings()));
+    public static final Item GEODE = registerItem("geode", new Item(new Item.Settings()));
+    public static final Item OPEN_GEODE = registerItem("open_geode", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -33,6 +36,9 @@ public class ModItems {
 
             //My Items
             entries.add(BLUE_SPHERE);
+            entries.add(GREEN_SPHERE);
+            entries.add(GEODE);
+            entries.add(OPEN_GEODE);
         });
     }
 }
